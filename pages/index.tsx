@@ -29,6 +29,14 @@ const tecnologies = [
 
 const projects: Project[] = [
   {
+    name: "MeetSpace",
+    description: `Sistema distribuído utilizando a arquitetura de microsserviços que gerencia reservas de salas de reunião.
+                  Desenvolvido com Node.js, NestJS, Flask e PostgreSQL, com suporte de conteinerização com Docker.
+                  Este sistema pode ser utilizado por empresas para organizar a reserva e uso de salas de reuniões em um escritório.`,
+    url: "https://github.com/brenno-araujo25/reserva-salas",
+    tags: ["Node.js", "NestJS", "Flask", "PostgreSQL", "Docker", "Microsserviços", "Python", "TypeScript", "JavaScript"]
+  },
+  {
     name: "Blog API",
     description: `API RESTful utilizando NestJS para gerenciar usuários, blogs, posts, comentários, curtidas e seguidores.
                   Utilizei autenticação e autorização baseadas em JWT.
