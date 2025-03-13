@@ -33,7 +33,7 @@ const Tecnologies = ({ tecnologies }: { tecnologies: string[] }) => {
         <div className="mt-12">
             <h1 className="text-3xl font-bold mb-4">Tecnologias</h1>
             {/* colocar os itens na horizontal */}
-            <ul className="flex flex-wrap lg:justify-center lg:gap-1">
+            <ul className="flex flex-wrap justify-center lg:gap-1">
                 {tecnologies.map((tecnology) => (
                     <li
                         key={tecnology}
