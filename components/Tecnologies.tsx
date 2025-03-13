@@ -1,5 +1,5 @@
 import { JSX } from "react";
-import { SiJavascript, SiNestjs, SiSequelize, SiTypeorm, SiExpress, SiFastapi, SiFastify } from "react-icons/si";
+import { SiJavascript, SiNestjs, SiSequelize, SiTypeorm, SiExpress, SiFastapi, SiFastify, SiDjango } from "react-icons/si";
 import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
 import { FaNodeJs, FaReact, FaPython, FaGitAlt, FaGithub, FaDocker } from "react-icons/fa6";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
@@ -13,6 +13,7 @@ const iconMap: { [key: string]: JSX.Element } = {
     React: <FaReact />,
     NestJS: <SiNestjs />,
     Python: <FaPython />,
+    Django: <SiDjango />,
     Git: <FaGitAlt />,
     GitHub: <FaGithub />,
     Docker: <FaDocker />,

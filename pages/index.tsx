@@ -15,6 +15,7 @@ const tecnologies = [
   "React",
   "Tailwind CSS",
   "Python",
+  "Django",
   "Git",
   "GitHub",
   "Docker",
@@ -29,11 +30,22 @@ const tecnologies = [
 
 const projects: Project[] = [
   {
+    name: "EcoTrilha",
+    description: `EcoTrilha é um sistema para turismo ecológico desenvolvido como projeto acadêmico.
+                  O sistema possui frontend em React e backend em Django.
+                  Permite o cadastro de guias e aventureiros, onde os guias podem registrar trilhas com localização no mapa.
+                  Possui uma interface intuitiva para visualização e agendamento de trilhas, 
+                  além de um sistema de progressão com XP e níveis para incentivar o engajamento dos usuários.
+                  `,
+    url: "https://github.com/EcoTrilha/",
+    tags: ["Python", "Django", "React", "Vite", "Tailwind CSS", "JavaScript"]
+  },
+  {
     name: "MeetSpace",
     description: `Sistema distribuído utilizando a arquitetura de microsserviços que gerencia reservas de salas de reunião.
                   Desenvolvido com Node.js, NestJS, Flask e PostgreSQL, com suporte de conteinerização com Docker.
                   Este sistema pode ser utilizado por empresas para organizar a reserva e uso de salas de reuniões em um escritório.`,
-    url: "https://github.com/brenno-araujo25/reserva-salas",
+    url: "https://github.com/MeetSpaceUFRPE/meetspace-back",
     tags: ["Node.js", "NestJS", "Flask", "PostgreSQL", "Docker", "Microsserviços", "Python", "TypeScript", "JavaScript"]
   },
   {
