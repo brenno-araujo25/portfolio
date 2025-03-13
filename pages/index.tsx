@@ -90,7 +90,7 @@ export default function Home() {
       <main className="container mx-auto px-6 py-12">
         <section className="text-center h-70 flex flex-col justify-center items-center">
           <img
-            src="/profile.jpeg"
+            src="/profile.png"
             alt="Foto de perfil"
             className="rounded-full w-32 h-32 mb-4"
           />
