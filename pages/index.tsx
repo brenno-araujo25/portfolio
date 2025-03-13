@@ -99,17 +99,23 @@ export default function Home() {
           <a href="#projects" className="bg-teal-400 hover:bg-teal-500 text-black px-6 py-2 rounded">Veja meus projetos</a>
         </section>
         
-        <About />
+        <div className="space-y-16 max-w-6xl mx-auto lg:w-3/4">
+          <About />
 
-        <Tecnologies tecnologies={tecnologies} />
+          <Tecnologies tecnologies={tecnologies} />
 
-        <Projects projects={projects} />
+          <Projects projects={projects} />
 
-        <Contact />
+          <Contact />
+        </div>
       </main>
 
-      <footer className="p-6 text-center">
-        <p className="text-gray-400 text-sm">&copy; 2025 Brenno. Todos os direitos reservados.</p>
+      <footer className="p-6 text-center text-gray-400 text-sm">
+        <p>&copy; {new Date().getFullYear()} Brenno Araújo</p>
+        <div className="flex justify-center space-x-4 mt-2">
+          <a href="https://github.com/brenno-araujo25" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://linkedin.com/in/brenno-araujo25" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
       </footer>
     </div>
   );

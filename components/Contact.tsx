@@ -3,7 +3,7 @@ export default function Contact() {
         <section id="contact" className="mt-12">
           <h3 className="text-3xl font-bold mb-4">Contato</h3>
           <p className="text-gray-400 mb-4">
-            Entre em contato comigo através do e-mail ou das redes sociais abaixo:
+            Me contate pelo e-mail ou conecte-se comigo através das plataformas abaixo.
           </p>
           <ul>
             <li><a href="mailto:brennocaldeira@outlook.com" className="text-teal-400 hover:underline">brennocaldeira@outlook.com</a></li>
