@@ -10,6 +10,8 @@ export const tecnologies = [
   "Tailwind CSS",
   "Python",
   "Django",
+  "Java",
+  "Spring Boot",
   "Git",
   "GitHub",
   "Docker",
@@ -40,7 +42,17 @@ export const projects: IProject[] = [
                     Desenvolvido com Node.js, NestJS, Flask e PostgreSQL, com suporte de conteinerização com Docker.
                     Este sistema pode ser utilizado por empresas para organizar a reserva e uso de salas de reuniões em um escritório.`,
       url: "https://github.com/MeetSpaceUFRPE/meetspace-back",
-      tags: ["Node.js", "NestJS", "Flask", "PostgreSQL", "Docker", "Microsserviços", "Python", "TypeScript", "JavaScript"]
+      tags: ["Node.js", "NestJS", "Docker", "Microsserviços", "Python", "TypeScript", "JavaScript"]
+    },
+    {
+      name: "Personal Finances API",
+      description: `API RESTful desenvolvida com Spring Boot e PostgreSQL para gerenciar finanças pessoais.
+                    Realiza rastreamento de receitas e despesas e relatórios financeiros.
+                    Utiliza autenticação JWT para segurança;
+                    JUnit e Mockito para testes unitários.
+                    Tratamento de exceções e mapeamento utilizando MapStruct`,
+      url: "https://github.com/brenno-araujo25/personal-finances-spring-boot",
+      tags: ["Java", "Spring Boot", "PostgreSQL", "JWT"]
     },
     {
       name: "Blog API",
@@ -69,4 +81,3 @@ export const projects: IProject[] = [
       tags: ["Node.js", "Express", "MySQL", "Docker"]
     },
 ];
-  

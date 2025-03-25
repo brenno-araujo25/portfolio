@@ -3,7 +3,6 @@ import { BsGithub } from "react-icons/bs";
 
 const navItens = [
     { label: "Início", href: "#home" },
-    { label: "Sobre", href: "#about" },
     { label: "Projetos", href: "#projects" },
     { label: "Contato", href: "#contact" },
     { label: <BsGithub size={24} />, href: "https://github.com/brenno-araujo25", target: "_blank" },

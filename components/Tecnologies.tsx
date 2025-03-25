@@ -1,7 +1,7 @@
 import { JSX } from "react";
 import { SiJavascript, SiNestjs, SiSequelize, SiTypeorm, SiExpress, SiFastapi, SiFastify, SiDjango } from "react-icons/si";
-import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
-import { FaNodeJs, FaReact, FaPython, FaGitAlt, FaGithub, FaDocker } from "react-icons/fa6";
+import { BiLogoTypescript, BiLogoPostgresql, BiLogoSpringBoot } from "react-icons/bi";
+import { FaNodeJs, FaReact, FaPython, FaGitAlt, FaGithub, FaDocker, FaJava } from "react-icons/fa6";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { GrMysql } from "react-icons/gr";
 
@@ -12,6 +12,8 @@ const iconMap: { [key: string]: JSX.Element } = {
     "Next.js": <RiNextjsFill />,
     React: <FaReact />,
     NestJS: <SiNestjs />,
+    Java: <FaJava />,
+    "Spring Boot": <BiLogoSpringBoot />,
     Python: <FaPython />,
     Django: <SiDjango />,
     Git: <FaGitAlt />,
@@ -31,7 +33,7 @@ const iconMap: { [key: string]: JSX.Element } = {
 const Tecnologies = ({ tecnologies }: { tecnologies: string[] }) => {
     return (
         <div className="mt-12 scroll-mt-24">
-            <h1 className="text-3xl font-bold mb-4">Tecnologias</h1>
+            <h1 className="text-3xl font-bold mb-6">Tecnologias</h1>
             <ul className="flex flex-wrap justify-center lg:gap-1">
                 {tecnologies.map((tecnology) => (
                     <li

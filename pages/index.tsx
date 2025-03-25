@@ -17,20 +17,10 @@ export default function Home() {
       
       <Header />
 
-      <main id="home" className="container mx-auto px-6 py-12 pt-24">
-        <section className="text-center h-70 flex flex-col justify-center items-center">
-          <img
-            src="/profile.png"
-            alt="Foto de perfil"
-            className="rounded-full w-32 h-32 mb-4"
-          />
-          <h2 className="text-3xl font-bold mb-4">Brenno Araújo</h2>
-          <p className="text-lg text-gray-400 mb-8">Desenvolvedor Backend e Estudante de Ciência da Computação</p>
-          <a href="#projects" className="bg-teal-400 hover:bg-teal-500 font-semibold text-black px-6 py-2 rounded">Veja meus projetos</a>
-        </section>
+      <main id="home" className="container mx-auto px-6 py-12 pt-24 mt-12 scroll-mt-12">
+        <About />
         
         <div className="space-y-16 max-w-6xl mx-auto lg:w-3/4">
-          <About />
 
           <Tecnologies tecnologies={tecnologies} />
 
