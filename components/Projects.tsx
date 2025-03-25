@@ -1,11 +1,11 @@
-export type Project = {
+export type IProject = {
     name: string;
     description: string;
     url: string;
     tags: string[];
 };
 
-export default function Projects({ projects }: { projects: Project[] }) {
+export default function Projects({ projects }: { projects: IProject[] }) {
     return (
         <section id="projects" className="mt-12">
             <h3 className="text-3xl font-bold mb-4">Projetos</h3>

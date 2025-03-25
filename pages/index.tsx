@@ -3,78 +3,8 @@ import Header from "@/components/Header";
 import About from "@/components/About";
 import Tecnologies from "@/components/Tecnologies";
 import Projects from "@/components/Projects";
-import { Project } from "@/components/Projects";
 import Contact from "@/components/Contact";
-
-const tecnologies = [
-  "TypeScript",
-  "JavaScript",
-  "NestJS",
-  "Next.js",
-  "Node.js",
-  "React",
-  "Tailwind CSS",
-  "Python",
-  "Django",
-  "Git",
-  "GitHub",
-  "Docker",
-  "PostgreSQL",
-  "MySQL",
-  "Sequelize",
-  "TypeORM",
-  "Express",
-  "Fastify",
-  "FastAPI"
-];
-
-const projects: Project[] = [
-  {
-    name: "EcoTrilha",
-    description: `EcoTrilha é um sistema para turismo ecológico desenvolvido como projeto acadêmico.
-                  O sistema possui frontend em React e backend em Django.
-                  Permite o cadastro de guias e aventureiros, onde os guias podem registrar trilhas com localização no mapa.
-                  Possui uma interface intuitiva para visualização e agendamento de trilhas, 
-                  além de um sistema de progressão com XP e níveis para incentivar o engajamento dos usuários.
-                  `,
-    url: "https://github.com/EcoTrilha/",
-    tags: ["Python", "Django", "React", "Vite", "Tailwind CSS", "JavaScript"]
-  },
-  {
-    name: "MeetSpace",
-    description: `Sistema distribuído utilizando a arquitetura de microsserviços que gerencia reservas de salas de reunião.
-                  Desenvolvido com Node.js, NestJS, Flask e PostgreSQL, com suporte de conteinerização com Docker.
-                  Este sistema pode ser utilizado por empresas para organizar a reserva e uso de salas de reuniões em um escritório.`,
-    url: "https://github.com/MeetSpaceUFRPE/meetspace-back",
-    tags: ["Node.js", "NestJS", "Flask", "PostgreSQL", "Docker", "Microsserviços", "Python", "TypeScript", "JavaScript"]
-  },
-  {
-    name: "Blog API",
-    description: `API RESTful utilizando NestJS para gerenciar usuários, blogs, posts, comentários, curtidas e seguidores.
-                  Utilizei autenticação e autorização baseadas em JWT.
-                  Adotei padrões DTO (Data Transfer Objects) para validação de entradas.
-    `,
-    url: "https://github.com/brenno-araujo25/blog-api",
-    tags: ["TypeScript", "NestJS", "JWT", "Docker"]
-  },
-  {
-    name: "Task App API",
-    description: `API RESTful desenvolvida em Node.js para gerenciamento de tarefas.
-                  Utilizei PostgreSQL como banco de dados e Sequelize como ORM. 
-                  Autenticação baseada em JWT e criptografia de senhas com bcrypt.
-                  Ambiente de desenvolvimento conteinerizado utilizando Docker.`,
-    url: "https://github.com/brenno-araujo25/task-app-api",
-    tags: ["JavaScript", "Node.js", "PostgreSQL", "Sequelize", "Docker"]
-  },
-  {
-    name: "ProMonitor",
-    description: `Sistema Web para gestão das monitorias do Departamento de Computação,
-                  permitindo a conexão entre professores e monitores de cada matéria.
-                  Desenvolvido com Node.js, Express e MySQL, com suporte de conteinerização com Docker`,
-    url: "https://github.com/HidraCode/ProMonitorBack",
-    tags: ["Node.js", "Express", "MySQL", "Docker"]
-  },
-];
+import { tecnologies, projects } from "@/data/data";
 
 export default function Home() {
   return (
