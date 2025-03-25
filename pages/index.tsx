@@ -26,7 +26,7 @@ export default function Home() {
           />
           <h2 className="text-3xl font-bold mb-4">Brenno Araújo</h2>
           <p className="text-lg text-gray-400 mb-8">Desenvolvedor Backend e Estudante de Ciência da Computação</p>
-          <a href="#projects" className="bg-teal-400 hover:bg-teal-500 text-black px-6 py-2 rounded">Veja meus projetos</a>
+          <a href="#projects" className="bg-teal-400 hover:bg-teal-500 font-semibold text-black px-6 py-2 rounded">Veja meus projetos</a>
         </section>
         
         <div className="space-y-16 max-w-6xl mx-auto lg:w-3/4">
