@@ -17,7 +17,7 @@ export default function Home() {
       
       <Header />
 
-      <main className="container mx-auto px-6 py-12">
+      <main id="home" className="container mx-auto px-6 py-12 pt-24">
         <section className="text-center h-70 flex flex-col justify-center items-center">
           <img
             src="/profile.png"

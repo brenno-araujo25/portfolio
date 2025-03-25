@@ -30,9 +30,8 @@ const iconMap: { [key: string]: JSX.Element } = {
 
 const Tecnologies = ({ tecnologies }: { tecnologies: string[] }) => {
     return (
-        <div className="mt-12">
+        <div className="mt-12 scroll-mt-24">
             <h1 className="text-3xl font-bold mb-4">Tecnologias</h1>
-            {/* colocar os itens na horizontal */}
             <ul className="flex flex-wrap justify-center lg:gap-1">
                 {tecnologies.map((tecnology) => (
                     <li

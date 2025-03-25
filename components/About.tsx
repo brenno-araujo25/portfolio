@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <section id="about" className="mt-12">
+        <section id="about" className="mt-12 scroll-mt-24">
           <h3 className="text-3xl font-bold mb-4">Sobre Mim</h3>
           <p className="text-gray-400 leading-relaxed mx-auto">
             Sou desenvolvedor backend com experiência em metodologias ágeis, desenvolvimento web e tecnologias como Node.js, TypeScript, Next.js e NestJS.
